@@ -60,6 +60,36 @@ class Graph:
             if(self.graph[i].color=='W'):
                 self.DFSUtil(i)
 
+    def BridgeUtil(self,s):
+        self.graph[s].color='G'
+        self.Time+=1  #for startTime
+        self.graph[s].lowestStartTime=self.Time
+        self.graph[s].startTime=self.Time
+        for i in self.graph[s].next:
+            if(self.graph[i].color=='W'):# Tarjan Algorithm
+                self.graph[i].color='G'
+                # self.graph[i].startTime=self.Time
+                self.graph[i].parent=s
+                self.BridgeUtil(i)
+                self.graph[s].lowestStartTime=min(self.graph[s].lowestStartTime, self.graph[i].lowestStartTime)
+
+                if(self.graph[s].startTime < self.graph[i].lowestStartTime):
+                    print( s,i, '\n')
+
+
+            elif(self.graph[i].color=='G' and self.graph[s].parent!=i):
+                self.graph[s].lowestStartTime=min(self.graph[s].lowestStartTime, self.graph[i].startTime)
+
+        self.graph[s].color='B'
+        # print('\n', s)
+        # self.Time += 1 #for Finish Time
+        # self.graph[s].finishTime=self.Time
+
+    def Bridge(self):
+        for i in range(self.vertices):
+            if(self.graph[i].color=='W'):
+                self.BridgeUtil(i)
+
 
 
 g1=Graph(10)
@@ -75,10 +105,15 @@ g1.addEdge(7, 8)
 g1.addEdge(0, 8)
 g1.addEdge(0, 9)
 g1.addEdge(1, 8)
+#
+#Find articulated Node
+# g1.DFS()
+#
+# print(g1.AP)
 
-g1.DFS()
 
-print(g1.AP)
+#Find bridge
+g1.Bridge()
 
 
 
