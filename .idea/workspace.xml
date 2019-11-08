@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3036033d-a244-4196-9ff3-20aa8973d86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Belman_ford.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single_source_shortest_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllSourcePairShortestPath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MST.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Articulated_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/Articulated_node.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +44,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.single_source_shortest_path">
+  <component name="RunManager" selected="Python.MST">
+    <configuration name="AllSourcePairShortestPath" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AllSourcePairShortestPath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Articulated_node" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -70,6 +93,9 @@
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -85,20 +111,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dijkstra_algo" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+    <configuration name="MST" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dijkstra_algo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,32 +152,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maxCableLength" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+    <configuration name="single_source_shortest_path" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxCableLength.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="single_source_shortest_path" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
-      <module name="Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\320005655\PycharmProjects\Testing\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MST" />
+        <item itemvalue="Python.AllSourcePairShortestPath" />
         <item itemvalue="Python.single_source_shortest_path" />
         <item itemvalue="Python.Belman_ford" />
         <item itemvalue="Python.Articulated_node" />
-        <item itemvalue="Python.Dijkstra_algo" />
-        <item itemvalue="Python.maxCableLength" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +223,9 @@
       <workItem from="1572528983727" duration="17869000" />
       <workItem from="1572879375053" duration="12411000" />
       <workItem from="1572965564276" duration="604000" />
-      <workItem from="1572967458902" duration="11290000" />
+      <workItem from="1572967458902" duration="11426000" />
+      <workItem from="1573050321977" duration="4747000" />
+      <workItem from="1573230043639" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="Inital Commit for graph practice">
       <created>1572967535433</created>
@@ -228,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572967535433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented few other algorithms">
+      <created>1572995431553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572995431553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +252,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -247,7 +262,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inital Commit for graph practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inital Commit for graph practice" />
+    <MESSAGE value="Implemented few other algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented few other algorithms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,6 +303,21 @@
           <line>36</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AllSourcePairShortestPath.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AllSourcePairShortestPath.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MST.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -298,11 +329,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Code_Practice$AllSourcePairShortestPath.coverage" NAME="AllSourcePairShortestPath Coverage Results" MODIFIED="1573078658626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$Dijkstra_algo.coverage" NAME="Dijkstra_algo Coverage Results" MODIFIED="1572882591460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code_Practice$Belman_ford.coverage" NAME="Belman_ford Coverage Results" MODIFIED="1572989946030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$SCC.coverage" NAME="SCC Coverage Results" MODIFIED="1572553995672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$Articulated_node.coverage" NAME="Articulated_node Coverage Results" MODIFIED="1572900467745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$number_of_island.coverage" NAME="number_of_island Coverage Results" MODIFIED="1572624817755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code_Practice$MST.coverage" NAME="MST Coverage Results" MODIFIED="1573231775738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$Skill_assessment.coverage" NAME="Skill_assessment Coverage Results" MODIFIED="1572115538682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$maxCableLength.coverage" NAME="maxCableLength Coverage Results" MODIFIED="1572632857921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Testing$DFS.coverage" NAME="DFS Coverage Results" MODIFIED="1572463828788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
